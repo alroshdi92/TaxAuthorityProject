@@ -1,0 +1,47 @@
+[
+    {
+            "name": "Brazil",
+            "value": 99422446,
+            "color": "#fccff0"
+          },
+          {
+            "name": "Colombia",
+            "value": 52085168,
+           "color": "#cccccc"
+          },
+          {
+            "name": "Argentina",
+            "value": 45773884,
+            "color": "#c2b0c9"
+          },
+          {
+            "name": "Peru",
+            "value": 34352719,
+            "color": "#9656a1"
+          },
+          {
+            "name": "Venezuela",
+            "value": 28838499,
+            "color": "#fa697c"
+          },
+          {
+            "name": "Chile",
+            "value": 19629590,
+            "color": "#fcc099"
+          },
+          {
+            "name": "Ecuador",
+            "value": 18190484,
+            "color": "#fcc109"
+          },
+          {
+            "name": "Bolivia",
+            "value": 19629590,
+            "color": "#ffc009"
+          },
+          {
+            "name": "Paraguay",
+            "value": 12388571,
+            "color": "#fc0068"
+    }
+  ]

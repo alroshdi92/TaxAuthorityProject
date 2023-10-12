@@ -1,0 +1,80 @@
+/* About.css */
+
+.about-container {
+    font-family: 'Arial', sans-serif;
+    //padding: 3em;
+    background-color: #f9f9f0;
+    max-width: 1500px;
+    margin: 2em auto;
+}
+
+h1 {
+    text-align: center;
+    color: #34495e;
+    //margin-bottom: 2.5em; 
+    font-weight: 700; 
+    font-size: 2em;
+    border-bottom: 2px solid #e74c3c;
+    display: inline-block; 
+   
+}
+
+h6 {
+    color: blue;  /* Matching the border color of h1 for consistency */
+    font-weight: 600;  /* Semi-bold */
+    font-size: 1.2em;  /* Slightly larger */
+    margin: 0.5em 0;  /* Space above and below */
+    letter-spacing: 1px;
+    border-bottom: 1.5px solid green;  /* Spacing out the letters a bit for style */
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2em;
+}
+
+.member-card {
+    background-color: #ffffff;
+    padding: 2em;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: calc(20% - 2em);  /* For 5 cards in a row on wider screens */
+    box-sizing: border-box;
+    transition: transform 0.3s;
+}
+
+.member-card:hover {
+    transform: translateY(-10px);  /* Lifts the card a bit on hover */
+}
+
+.member-image {
+    width: 70px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    object-fit: cover;
+    max-height: 100px;  /* You can adjust based on your images */
+}
+
+.member-card h2, .member-card h3 {
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.member-card p {
+    color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+    .member-card {
+        width: calc(50% - 2em);  /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .member-card {
+        width: 100%;  /* One card per row on very small screens */
+    }
+}
